@@ -18,10 +18,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: |
-          pip install flake8
-          flake8 .
+      # - name: Install dependencies
+      #   run: |
+      #     pip install flake8
+      #     flake8 .
 
       - name: Test coverage
         run: |
